@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
             return; 
         }
 
-        fetch("assets/json/members.json")
+        // fetch("assets/json/members.json
+        fetch("_data/members.json")
             .then(function(response) {
                 return response.json();
             })
