@@ -1,8 +1,13 @@
+/**
+  * base.js 부분
+*/
+
 document.addEventListener('DOMContentLoaded', () => {
     "use strict";
   
     /**
      * Preloader
+     * 
      */
     const preloader = document.querySelector('#preloader');
     if (preloader) {
@@ -115,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     /**
      * Initiate glightbox
+     * 
      */
     const glightbox = GLightbox({
       selector: '.glightbox'
@@ -123,6 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
    * Init swiper slider with 1 slide at once in desktop view
+   * 
    */
   new Swiper('.slides-1', {
     speed: 600,
