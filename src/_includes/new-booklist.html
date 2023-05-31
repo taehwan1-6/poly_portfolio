@@ -3,13 +3,13 @@
   <div class="container" data-aos="fade-up">
 
     <div class="section-header">
-      <h2>이번 달 추천 도서</h2>
+      <h2>이번 달 신간 도서</h2>
     </div>
 
     <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper-wrapper">
 
-        {% for book in site.data.books %}
+        {% for book in site.data.new-booklist %}
         <!-- Start BookList item -->
         <div class="swiper-slide">
           <div class="book-wrap">
@@ -27,9 +27,7 @@
                 </div>
               </div>
               <p>
-                <i class="bi bi-quote quote-icon-left"></i>
-                {{ book.description }}
-                <i class="bi bi-quote quote-icon-right"></i>
+                
               </p>
             </div>
           </div>

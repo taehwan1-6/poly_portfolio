@@ -1,34 +1,34 @@
 [
   {
-    "image": "assets/img/books/gitbook.jpeg",
+    "image": "assets/img/books/recomend-booklist/gitbook.jpeg",
     "title": "Git 교과서",
     "author": "이호진",
     "rating": 5,
     "description": "Git 교과서는 대표적인 버전 관리 시스템인 깃의 설치부터 커밋, 브랜치, 임시 처리, 병합, 복귀, 서브모듈, 태그까지 깃 입문자가 꼭 알아야 할 내용을 설명한다. ..."
   },
   {
-    "image": "assets/img/books/디자인패턴.jpeg",
+    "image": "assets/img/books/recomend-booklist/디자인패턴.jpeg",
     "title": "쉽게 배워 바로 써먹는 디자인 패턴",
     "author": "이호진",
     "rating": 5,
     "description": "디자인 패턴은 어느 날 갑자기 생겨난 방식이 아니다. 객체지향 개발 과정에서 겪는 다양한 이슈를 종합해보면 서로 비슷한 유형의 문제다. ..."
   },
   {
-    "image": "assets/img/books/넘버원php.jpeg",
+    "image": "assets/img/books/recomend-booklist/넘버원php.jpeg",
     "title": "넘버원 PHP",
     "author": "이호진",
     "rating": 5,
     "description": "PHP는 처음 프로그램을 접하고 학습을 하기에 매우 쉬운 언어입니다. ..."
   },
   {
-    "image": "assets/img/books/넘버투php.jpeg",
+    "image": "assets/img/books/recomend-booklist/넘버투php.jpeg",
     "title": "넘버투 PHP",
     "author": "이호진",
     "rating": 5,
     "description": "다양한 정보들을 저장하고 이를 다시 가공 처리하여 이용자들에게 보여주게 됩니다. ..."
   },
   {
-    "image": "assets/img/books/넘버쓰리php.jpeg",
+    "image": "assets/img/books/recomend-booklist/넘버쓰리php.jpeg",
     "title": "넘버쓰리 PHP",
     "author": "이호진",
     "rating": 5,
