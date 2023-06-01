@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     /**
      * Sticky Header on Scroll
+     * 
      */
     const selectHeader = document.querySelector('#header');
     if (selectHeader) {
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     /**
      * Navbar links active state on scroll
+     * 
      */
     let navbarlinks = document.querySelectorAll('#navbar a');
   
@@ -64,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     /**
      * Mobile nav toggle
+     * 
      */
     const mobileNavShow = document.querySelector('.mobile-nav-show');
     const mobileNavHide = document.querySelector('.mobile-nav-hide');
@@ -83,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     /**
      * Hide mobile nav on same-page/hash links
+     * 
      */
     document.querySelectorAll('#navbar a').forEach(navbarlink => {
   
@@ -101,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     /**
      * Toggle mobile nav dropdowns
+     * 
      */
     const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
   
@@ -152,6 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /**
    * Init swiper slider with 3 slides at once in desktop view
+   * 
    */
   new Swiper('.slides-3', {
     speed: 600,
